@@ -1,7 +1,7 @@
-import { Container, Grid } from '@mui/material'
+import { Container } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import NoteCard from './NoteCard'
-import Masonry from '@mui/lab/Masonry';
+import Masonry from '@mui/lab/Masonry'
 
 export default function Notes() {
   const breakpoints = { sm: 1, md: 2, lg: 3 }
